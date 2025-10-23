@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Oct 22 17:18:56 2025
+
+@author: danny
+"""
+a = 32
+b = 27
+print('Квадрат числа {} равен  {}\n. Куб числа {} равен {}'
+      .format(a, a**2, b, b**3))
