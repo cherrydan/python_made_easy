@@ -3,10 +3,10 @@
 """
 
 
-def is_leap_year(year):
+def is_leap_year(y):
     try:
-        if year in range(1000, 2101):
-            return (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)
+        if y in range(1000, 2101):
+            return (y % 4 == 0 and y % 100 != 0) or (y % 400 == 0)
         else:
             raise ValueError
     except ValueError:
