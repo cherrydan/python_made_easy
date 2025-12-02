@@ -3,7 +3,6 @@ from rich.console import Console
 console = Console()
 
 
-
 def pattern_T_inverse(n, color='white'):
     """
     Рисует перевернутый прямоугольный треугольник из *
